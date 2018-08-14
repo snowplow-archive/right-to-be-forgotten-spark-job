@@ -76,4 +76,4 @@ packages:
         prefix : "snowplow-right-to-be-forgotten-job-"
         suffix : ".jar"
         binary_paths:
-          - "r2f/target/scala-2.11/snowplow-right-to-be-forgotten-job-{{ packages.0.build_version }}.jar"
+          - "target/scala-2.11/snowplow-right-to-be-forgotten-job-{{ packages.0.build_version }}.jar"
