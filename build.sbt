@@ -20,7 +20,7 @@ lazy val root = project
     startYear := Some(2018),
     licenses += ("Apache-2.0", new URL("https://www.apache.org/licenses/LICENSE-2.0.txt")),
     name := "snowplow-right-to-be-forgotten-job",
-    version := "0.1.0-rc1",
+    version := "0.1.0-rc2",
     description := "The Snowplow right to be forgotten job",
     fork := true // For spark
   )
