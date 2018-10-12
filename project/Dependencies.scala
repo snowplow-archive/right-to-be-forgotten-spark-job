@@ -28,8 +28,7 @@ object Dependencies {
   object V {
     // Java
     val jsonpath                          = "2.4.0"
-    val vfs2                              = "2.2-1"
-    val vfsS3                             = "2.4.2"
+    val vfsS3                             = "2.4.0"
     // Scala
     val spark                             = "2.3.1"
     val commonEnrich                      = "0.35.0"
@@ -45,7 +44,6 @@ object Dependencies {
   object Libraries {
     // Java
     val jsonPath                   = "com.jayway.jsonpath"   %  "json-path"                     % V.jsonpath
-    val vfs2                       = "com.github.abashev"    %  "commons-vfs2"                  % V.vfs2
     val vfsS3                      = "com.github"            %  "vfs-s3"                        % V.vfsS3
     // Scala
     val sparkCore                  = "org.apache.spark"      %% "spark-core"                    % V.spark                            % "provided"

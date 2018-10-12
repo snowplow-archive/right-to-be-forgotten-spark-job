@@ -116,7 +116,6 @@ object BuildSettings {
 
   lazy val dependencies = Seq(
     libraryDependencies ++= Seq(
-      Dependencies.Libraries.vfs2,
       Dependencies.Libraries.vfsS3,
       Dependencies.Libraries.sparkCore,
       Dependencies.Libraries.sparkSQL,
